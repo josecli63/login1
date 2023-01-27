@@ -1,0 +1,50 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+/* Variables */
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #fff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.bg-dark-x {
+    background-color: var(--dark-x);
+}
+
+.logo {
+    border: 2px solid #555;
+    border-radius: 50%;
+}
+
+.form-control,
+.btn {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+::placeholder {
+    color: #777 !important;
+}
+
+.img-1 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+}
